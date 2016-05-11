@@ -244,6 +244,8 @@ self.init = function() {
                 link: info.postlink,
                 domain: info.domain,
                 body: info.body,
+                uri_body: info.uri_body,
+                uri_title: info.uri_title,
                 raw_body: info.raw_body
             };
 
@@ -574,7 +576,9 @@ self.init = function() {
                 domain: '',
                 logSub: '',
                 body: '',
-                raw_body: ''
+                raw_body: '',
+                uri_body: '',
+                uri_title: ''
             };
 
         // Update status
